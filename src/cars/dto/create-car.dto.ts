@@ -1,6 +1,6 @@
 import {IsString} from 'class-validator';
 export class createCarDto{
-    id:number
+    readonly id:number
 
     @IsString()
     COLOR:string
